@@ -32,5 +32,6 @@ Herhangi bir sunucu kurulumuna gerek yoktur. Tarayıcı üzerinde doğrudan çal
 2. Klasör içindeki `index.html` dosyasını tarayıcınızda açın.
 3. *Not: USDA API kullanıldığı için besin girişleri İngilizce (Örn: "raw apple", "chicken breast") yapılmalıdır.*
 
----
-*Geliştirici: Kubilay Karaca - Bahçeşehir Üniversitesi, Bilgisayar Mühendisliği*
+## 👨‍💻 Geliştirici
+**Kubilay Karaca**
+* GitHub: [@KubilayKaraca](https://github.com/KubilayKaraca)
