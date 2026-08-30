@@ -4,7 +4,7 @@ Haftada 5 günlük ağırlık antrenmanı rutinimi, günlük 4.5 litrelik su hed
 
 Uygulama, Amerikan Tarım Bakanlığı'nın (USDA) veritabanına anlık olarak bağlanarak tüketilen besinlerin kalori ve makro değerlerini gramaj bazında hesaplar.
 
-🔗 **[Canlı Demo: Uygulamayı Denemek İçin Tıklayın](GitHub Pages Linkini Buraya Yapıştır)**
+🔗 **[Canlı Demo: Uygulamayı Denemek İçin Tıklayın](https://kubilaykaraca.github.io/makro-takip-uygulamasi/)**
 
 ## ✨ Temel Özellikler
 
