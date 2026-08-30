@@ -1,4 +1,4 @@
-# 🏋️‍♂️ Makro ve Su Takip Uygulaması
+# 🍏 Makro ve Su Takip Uygulaması
 
 Sağlıklı yaşam hedeflerine ulaşmak isteyen kullanıcıların günlük su tüketimini ve besin değerlerini (Karbonhidrat, Yağ, Protein, Kalori) pratik bir şekilde takip edebilmesi için geliştirilmiş modern ve bağımsız bir web uygulamasıdır. 
 
