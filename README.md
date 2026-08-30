@@ -1,6 +1,6 @@
 # 🏋️‍♂️ Makro ve Su Takip Uygulaması
 
-Haftada 5 günlük ağırlık antrenmanı rutinimi, günlük 4.5 litrelik su hedefimi ve makro besinlerimi (Karbonhidrat, Yağ, Protein) takip etmek amacıyla dışa bağımlılığı ortadan kaldırmak için sıfırdan geliştirdiğim kişisel web uygulamasıdır. 
+Sağlıklı yaşam hedeflerine ulaşmak isteyen kullanıcıların günlük su tüketimini ve besin değerlerini (Karbonhidrat, Yağ, Protein, Kalori) pratik bir şekilde takip edebilmesi için geliştirilmiş modern ve bağımsız bir web uygulamasıdır. 
 
 Uygulama, Amerikan Tarım Bakanlığı'nın (USDA) veritabanına anlık olarak bağlanarak tüketilen besinlerin kalori ve makro değerlerini gramaj bazında hesaplar.
 
