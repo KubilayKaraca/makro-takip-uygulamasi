@@ -35,7 +35,9 @@ body {
 .giris_bolumu{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 10px;
+    flex-wrap: wrap;
 }
 #icilen_su_girisi_divisionu{
     margin-bottom: 30px;
@@ -92,4 +94,31 @@ h2{
 #makrolar{
     font-size: 20px;
     font-weight: bold;
+}
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px; 
+        padding: 10px;
+        margin-bottom: 25px;
+    }
+    
+    h2 {
+        font-size: 18px; 
+        padding: 0 10px;
+    }
+
+    .giris_bolumu {
+        flex-direction: column; 
+        padding: 0 20px; 
+    }
+
+    .giris, .dugme {
+        width: 100%; 
+        padding: 10px; 
+        box-sizing: border-box; 
+    }
+
+    .capraz-serit {
+        margin: 20px 0; 
+    }
 }
