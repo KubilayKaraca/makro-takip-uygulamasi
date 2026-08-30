@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Makro Takip Uygulaması</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+        <h1>Makro Takip Uygulaması</h1>
+
+        <div class="giris_bolumu">
+            <label for="hedef_su_girisi">Günlük içilecek hedef su miktarını giriniz:</label>
+            <input type="number" id="hedef_su_girisi" class="giris" placeholder="Su miktarı (ml)">
+            <button class="dugme" id="kaydet_1">Kaydet</button>
+        </div>
+
+        <h2 id="birinci_h2">İçilen Su: 0 ml / Hedef Su Miktarı: 0 ml</h2>
+        <canvas id="su_grafigi" class="grafik"></canvas>
+        
+        <div id="icilen_su_girisi_divisionu" class="giris_bolumu">
+            <label for="icilen_su_girisi">İçtiğiniz su miktarını giriniz (ml):</label>
+            <input type="number" id="icilen_su_girisi" class="giris" placeholder="Su miktarı (ml)">
+            <button class="dugme" id="ekle_1">Ekle</button>
+        </div>
+
+        <div class="capraz-serit"></div>
+
+        <div id="alinan_kalori_giris_divisionu" class="giris_bolumu">
+            <label for="hedef_kalori_girisi">Günlük alınacak hedef kalori miktarını giriniz:</label>
+            <input type="number" id="hedef_kalori_girisi" class="giris" placeholder="Kalori miktarı (kcal)">
+            <button class="dugme" id="kaydet_2">Kaydet</button>
+        </div>
+
+        <h2 id="ikinci_h2">Alınan Kalori: 0 kcal / Hedef Kalori: 0 kcal</h2>
+        <canvas id="kalori_grafigi" class="grafik"></canvas>
+
+        <div class="giris_bolumu">
+            <label for="besin_girisi">Yediğiniz besini giriniz:</label>
+            <input type="text" id="besin_girisi" class="giris" placeholder="İngilizce giriniz">
+            <label for="gramaj_girisi">Besinin gramajını giriniz:</label>
+            <input type="number" id="gramaj_girisi" class="giris" placeholder="Gramaj (g)">
+            <button class="dugme" id="ekle_2">Ekle</button>
+        </div>
+
+        <div>
+            <ul id="besin_listesi">
+
+            </ul>
+        </div>
+
+        <div class="giris_bolumu">
+            <span id="makrolar">Toplam Karbonhidrat: 0 g / Toplam Yağ: 0 g / Toplam Protein: 0 g</span>
+        </div>
+
+        <div id="sifirla_butonu_divisionu">
+            <button class="dugme" id="sifirla">Sıfırla</button>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>

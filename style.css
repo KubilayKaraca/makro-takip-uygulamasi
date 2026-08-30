@@ -1,0 +1,95 @@
+.grafik {
+    display: block;          
+    max-width: 300px;        
+    width: 100%;             
+    margin: 0 auto 30px auto;
+}
+h1 {
+    padding: 20px;
+    background-color: #b51b10;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 50px;
+    border: 2px solid black;
+    margin-bottom: 50px; 
+}
+body {
+    background-color: #edd5d3;
+}
+.dugme{
+    background-color: #cccfcd;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    padding: 3px 6px;
+    border: none;
+}
+.dugme:hover{
+    background-color: #a7aba8;
+    cursor: pointer;
+}
+.dugme:active{
+    transform: scale(0.95);
+}
+.giris_bolumu{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+#icilen_su_girisi_divisionu{
+    margin-bottom: 30px;
+}
+.capraz-serit {
+    width: 100%;
+    height: 30px;
+    background: repeating-linear-gradient(
+        45deg,
+        #b51b10,
+        #b51b10 20px, 
+        #edd5d3 20px,
+        #edd5d3 40px  
+    );
+    border-radius: 8px;
+}
+#alinan_kalori_giris_divisionu{
+    margin-top: 30px;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.giris{
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+}
+.giris:hover{
+    background-color: #ededed;
+    cursor: text;
+}
+.giris:focus{
+    border: 2px solid #3498db;
+    outline: none;
+}
+#besin_listesi{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.liste_elemani{
+    font-weight: bold;
+}
+#sifirla_butonu_divisionu{
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#makrolar{
+    font-size: 20px;
+    font-weight: bold;
+}
